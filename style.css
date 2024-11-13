@@ -1,0 +1,72 @@
+header , main{
+    margin: 0px 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.ul{
+    display: flex;
+    text-decoration: none;    
+}
+.li{
+    display: flex;
+    margin-right: 20px;   
+}
+.head{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.camera{
+    width: 350px;     
+}
+.Start{
+    font-size: 45px;
+    font-weight: bold;
+}
+.Lorem{
+    margin-top: -45px;
+    font-weight: normal;
+}
+.button{
+    color: white;
+    background-color: red;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+    
+}
+.ali{
+    justify-items: center;
+    width: 60px;
+    height: 50px;
+    object-fit: contain;
+} 
+.footer{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer{
+    color: white;
+    text-align: center;    
+}
+
+    
