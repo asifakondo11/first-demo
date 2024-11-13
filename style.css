@@ -9,15 +9,16 @@ header , main{
 }
 .ul{
     display: flex;
-    text-decoration: none;    
+    text-decoration: none; 
+    font-weight: 600;       
 }
 .li{
     display: flex;
-    margin-right: 20px;   
+    margin-right: 30px;   
 }
 .head{
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: bold;
 }
 .main{
