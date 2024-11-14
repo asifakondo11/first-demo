@@ -68,7 +68,90 @@ header , main{
 }
 .footer{
     color: white;
-    text-align: center;    
+    text-align: center;
+    margin-top: 50px;    
 }
+.product-container{
+    margin-top: 100px;
+}
+.product-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.product-card{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: fit-content;
+    height:auto;
+    /* border: 1px solid; */
+    box-shadow:  0 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;  
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    margin-top: 8px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rating{
+    margin-top: -10px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.details{
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: -10px;
+}
+.all-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    row-gap: 30px;
+}
+.next-button{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content:end;
+}
+.last-div{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.featured{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-para{
+    padding-top: -10px;
+}
+.last-button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: red;
+    padding: 5px 15px 5px 15px ;
+    border: none;
+}
     
